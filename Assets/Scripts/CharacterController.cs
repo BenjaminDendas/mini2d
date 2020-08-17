@@ -71,6 +71,7 @@ public class CharacterController : MonoBehaviour
             this.isJumping = false;
         }
     }
+
     private void UpdateSprite()
     {
         if(!isJumping)
@@ -109,6 +110,5 @@ public class CharacterController : MonoBehaviour
                 this.transform.rotation = Quaternion.Euler(0, 0, 0);
             }
         }
-
     }
 }
